@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISIONARY</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://api-icons.icons8.com/publicApi/icons?token=YOUR_API_KEY
+    ">
+
+
+        <style>
+
+
+.botao {
+    margin-top: -140px;
+}
+            body, html {
+            margin: 0; /* Remove margens */
+            padding: 0; /* Remove preenchimento */
+            height: 100%; /* Altura do corpo e html 100% */
+            overflow: hidden; /* Evita rolagem */
+        }
+
+
+        .fullscreen-background {
+            background-image: url('IMGGUERREIRO.jpg'); /* Substitua pelo caminho da sua imagem */
+            background-size: cover;   /* Cobre toda a área */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Não repete a imagem */
+            width: 100%;   /* Largura 100% */
+            height: 100%;  /* Altura 100% */
+        }
+
+        /* Para garantir que o conteúdo tenha uma boa visibilidade */
+        .content {
+            position: relative; /* Para posicionamento do conteúdo */
+            z-index: 1; /* Para garantir que o conteúdo fique acima da imagem */
+            color: white; /* Cor do texto */
+            text-align: center; /* Centraliza o texto */
+            padding: 20px; /* Espaçamento interno */
+        }
+        
+         .bg-image {
+            background-size: cover;  /* Faz a imagem cobrir toda a área */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Evita que a imagem se repita */
+            width: 100vw;  /* Largura 100% da viewport */
+            height: 100vh; /* Altura 100% da viewport */
+         }
+
+        .custom-btn {
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            width: 90%;           
+            font-size: 16px; /* Tamanho da fonte */
+            transition: background-color 0.1s ease; /* Efeito suave */
+            text-align: center;
+            border-radius: 20px;
+            
+        }
+    
+        .custom-btn:hover {
+            background-color: #000000a2; /* Cor ao passar o mouse */
+            color: rgb(255, 255, 255); /* Cor do texto ao passar o mouse */
+            transform: scale(1.05); /* Aumenta ligeiramente o botão */
+            border-color: #ececec; /* Cor da borda ao passar o mouse */
+            
+        }
+
+        .custom-btn img {
+        width: 24px; /* Largura da imagem */
+        height: 24px; /* Altura da imagem */
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(2) contrast(1); /* Mudar a cor do PNG */
+
+        
+        } 
+        .custom-btn p {
+            margin: 0; /* Remove margens padrão do parágrafo */
+            display: inline;
+        }
+
+        footer {
+            color: #9c9999;
+            font-size: 5px;
+            
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #b41212;
+            font-size: 5px;
+            font-weight: bold;
+        }
+
+        footer a:hover{
+            color: #ececec;
+            text-decoration: #ececec;
+            text-decoration-color:#ececec;
+            transform: scale(1.05);
+        }
+
+
+        html, body {
+    height: 100%; /* Garante que o body ocupe 100% da altura da janela */
+    margin: 0; /* Remove margens padrão */
+}
+
+.botao {
+    display: flex; /* Flexbox para controle de layout */
+    flex-direction: column; /* Coluna para empilhar os botões */
+    align-items: center; /* Centraliza os botões horizontalmente */
+    justify-content: center; /* Centraliza os botões verticalmente */
+    height: 100%; /* Ocupa toda a altura do contêiner */
+    padding: 20px; /* Espaçamento interno */
+    overflow-y: auto; /* Permite rolagem vertical se necessário */
+}
+
+.custom-btn {
+    width: 100%; /* Os botões ocupam toda a largura do contêiner */
+    max-width: 400px; /* Largura máxima dos botões */
+    padding: 10px; /* Espaçamento interno do botão */
+    margin: 10px 0; /* Margem entre os botões */
+    font-size: 1rem; /* Tamanho da fonte */
+    border-radius: 25px; /* Borda arredondada */
+}
+
+.custom-btn img {
+    width: 24px; /* Largura da imagem */
+    height: 24px; /* Altura da imagem */
+    margin-right: 8px; /* Espaçamento entre a imagem e o texto */
+    vertical-align: middle; /* Alinha a imagem verticalmente com o texto */
+}
+
+/* Media Queries para telas com proporção 0.667 */
+@media (max-height: 667px) and (min-height: 600px) {
+    .custom-btn {
+        font-size: 0.9rem; /* Tamanho da fonte reduzido em telas menores */
+    }
+}
+
+@media (max-height: 500px) {
+    .custom-btn {
+        font-size: 0.8rem; /* Tamanho da fonte ainda menor */
+        padding: 8px; /* Reduz o espaçamento interno */
+    }
+
+    .botao {
+        padding: 10px; /* Reduz o espaçamento do contêiner */
+    }
+}
+
+    
+    
+    
+        </style>
+
+</head>
+<body>
+    <div class="fullscreen-background">
+        
+
+        <!--DIV CENTRALIZADA-->
+        <div class="d-flex justify-content-center align-items-center" style="height: 100vh;" xmlns="1727630913601.png">
+    
+        <div class="text-center" style="backdrop-filter: blur(0px); background-color: rgba(0, 0, 0, 0.541); position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: 8px; width: 98%; height: 98%; margin: auto; border-radius: 25px;">
+       
+            <svg class="bd-placeholder-img rounded-circle my-4" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>V I S I O N A R Y</title>
+                <image href="1727630913601.png" width="140" height="140" preserveAspectRatio="xMidYMid slice" id="img1"></image>
+                </svg>
+                <p style="color: white; text-align: center; margin-top: -70px">𝕍 𝕀 𝕊 𝕀 𝕆 ℕ𝔸 ℝ 𝕐
+        
+                </p>
+                <p style="color: white; text-align: center; margin-top: -30px; padding: 20px; ">"Pronto para mudar? Descubra seu eu verdadeiro e dê o primeiro passo agora!"</p>
+            
+        <div class="botao d-flex flex-column align-items-center" style="height: 100%;">
+          
+            <button type="button" class="btn btn-outline-secondary custom-btn" onclick="livros()">
+                <img src="https://img.icons8.com/wired/64/book.png" alt="book" />
+                <p>LIVRO - "Descubra Sua Melhor Versão"</p>
+            </button>
+            <button type="button" class="btn btn-outline-secondary custom-btn" onclick="cortes()">
+                <img src="https://img.icons8.com/ios/50/money--v1.png" alt="book" />
+                <p>RENDA - "Ganhe Dinheiro com Cortes"</p>
+            </button>
+            <button type="button" class="btn btn-outline-secondary custom-btn" onclick="rendanet()">
+                <img src="https://img.icons8.com/ios/50/money--v1.png" alt="book" />
+                <p>RENDA - "Lucre com Vendas Online: O Passo a Passo"</p>
+            </button>
+            <button type="button" class="btn btn-outline-secondary custom-btn" onclick="abatik()">
+                <img src="https://img.icons8.com/forma-thin/24/tiktok.png" alt="book" />
+                <p>TIKTOK - " 𝕍 𝕀 𝕊 𝕀 𝕆 ℕ𝔸 ℝ 𝕐 - "Motivação Diária"</p>
+            </button>
+            <button type="button" class="btn btn-outline-secondary custom-btn" disabled onclick="window.location.href='SEU_LINK_AQUI'">
+                <img src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="book" />
+                <p>INSTAGRAM - " 𝕍 𝕀 𝕊 𝕀 𝕆 ℕ𝔸 ℝ 𝕐 Em breve "</p>
+            </button>
+        </div>
+        
+      
+        
+        <footer style="margin-top: 10px;" onclick="fotinsta()"><p>PLATAFORMA desenvolvido por <a href="">LUCAS NOLACIO</a></p></footer>
+        </div>
+        
+      </div>
+
+      
+
+      </div> <!--IMAGEM DE FUNDO-->
+      </div>
+    </div> <!--imagem de fundo-->
+    </div><!--imagem fundo-->
+       <script>
+        function abatik(){
+            window.open('https://www.tiktok.com/@1visi0nary?is_from_webapp=1&sender_device=pc', '_blank');
+        }
+
+        function fotinsta(){
+            window.open('https://www.instagram.com/luukasnoolacio?igsh=MW8wejYwMXdzYnhxYg==', '_blank');
+        }
+
+        function cortes(){
+            window.open('https://pay.kiwify.com.br/JSBCkl0?afid=x0IjfHJ7', '_blank');
+        }
+
+        function livros(){
+            window.open('https://pay.kiwify.com.br/lUbchc8?afid=Y0tVDv19', '_blank');
+        }
+
+        function rendanet(){
+            window.open('https://go.hotmart.com/T95814688T?dp=1', '_blank');
+        }
+       </script>
+       
+       
+       </body>
+
+       </html>
